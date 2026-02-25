@@ -20,11 +20,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/cantarellabots')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", 'https://t.me/Theprimevault01'))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", 'https://t.me/Theprimevault01'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', 'https://t.me/Theprimevault01'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "https://t.me/Theprimevault01"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
