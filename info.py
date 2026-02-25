@@ -10,8 +10,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '8327651421').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Honey_bun12')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'Kmx_01_Bot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
