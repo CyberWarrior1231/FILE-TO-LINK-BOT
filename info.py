@@ -3,8 +3,8 @@ from Script import script
 
 # 🚀 __Bot Configuration__
 SESSION = environ.get('SESSION', 'RexBots')  # Session name
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '28674463'))
+API_HASH = environ.get('API_HASH', '04e625b25822b3a0f4730a98adedeba2')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
